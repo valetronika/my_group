@@ -1,0 +1,35 @@
+.gallery {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    object-fit: cover   ;
+}
+
+.gallery_btn{
+    background: black;
+    border: none;
+    color:#fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+/* .gallery button{
+    background: black;
+    border: none;
+    color:#fff;
+    padding: 8px 16px;
+} */
+.zoom_img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}

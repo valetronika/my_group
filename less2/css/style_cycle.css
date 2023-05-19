@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #f7e1cc;
+}
+/* .grid{
+    min-width: 400px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid div{
+    border: 1px solid hwb(0 0% 100%);
+    width: 100px;
+    height: 100px;
+    gap: 20px;
+} */
+nav {
+    background-color: #111;
+    padding: 8px 16px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar__item a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: sans-serif;
+}
+
+.navbar__item a:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+.navbar__toggle {
+    width: 20px;
+    height: 20px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+.navbar__mobile {
+    display: none;
+}
+
+.navbar__toggle span {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+@media (max-width:768px) {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar__toggle {
+        display: flex;
+    }
+
+    .navbar__mobile {
+        display: block;
+    }
+
+    .navbar__show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 36px;
+        background: #111;
+        min-width: 256px;
+    }
+}
+
+/* 769 ------ > 1024px */
+
+/* @media (max-width:1024px) { */
+/* body { */
+/* background-color: red; */
+/* } */
+
+/* .navbar__toggle {
+        display: flex;
+    } */
+/* } */
+
+/* 377px ------ > 768px */
+
+/* @media (max-width:768px) { */
+/* .navbar__toggle {
+        display: flex;
+    } */
+
+/* body { */
+/* background-color: orange; */
+/* } */
+/* } */
+
+/* 0 ------ > 376px */
+/* @media (max-width:376px) { */
+/* .navbar__toggle {
+        display: flex;
+    } */
+
+/* body { */
+/* background-color: green; */
+/* } */
+/* } */
+@media (max-width:768px) {
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar__toggle {
+        display: flex;
+    }
+
+    .navbar__mobile {
+        display: block;
+    }
+
+    .navbar__show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 36px;
+        background: #111;
+        min-width: 256px;
+    }
+}
